@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'Gotham Pro Light';
+    src: url('GothamPro-Light.eot');
+    src: url('GothamPro-Light.eot?#iefix') format('embedded-opentype'),
+    url('GothamPro-Light.woff') format('woff'),
+    url('GothamPro-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+
+h1, h2, h3, h4, h5, h6, p{
+    font-family: Gotham Pro Light;
+}
+
+h2{
+font-style: normal;
+font-weight: 300;
+font-size: 31px;
+line-height: 37px;
+
+}
+h5{
+    /* H5 */
+/* font-family: Gotham Pro; */
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+
+/* identical to box height, or 120% */
+
+/* For text 1 */
+color: #444444;
+}
+h6{
+    /* H6 */
+    /* font-family: Gotham Pro; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+
+    /* identical to box height, or 115% */
+    display: flex;
+    align-items: center;
+
+    /* Primary */
+    color: #00ADEF;
+}
+
+p{
+    /* Body2 */
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 19px;
+
+/* For Text 2 */
+color: #888888;
+
+
+}
+
+.products {
+
+    background: #FFFFFF;
+    /* border: 1px solid black; */
+    margin-top: 10%;
+    padding-top: 26px;
+    padding-bottom: 25px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.products_nav{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+
+.products_nav_tag{
+    height: 37px;
+    /* border: 1px solid black; */
+}
+
+.products_nav_btn{
+    height: 37px;
+    border: 1px solid black;
+
+}
+.products_block{
+    /* border: 1px solid black; */
+
+    justify-content: space-between;
+    padding-top:25px;
+    padding-bottom:25px;
+    
+    
+
+}
+
+.products_block_card{
+
+    background: #FFFFFF;
+
+    /* Grey 1 (for strokes) */
+    border: 1px solid #EEEEEE;
+    /* box-sizing: border-box; */
+    border-radius: 5px;
+
+    padding: 20px;
+}
+
+.products_block_card_image{
+    /* margin: 20px; */
+    background-image: url(img/Rectangle_2.png);
+    width : 230px;
+    height: 150px;
+    /* border: 1px solid #EEEEEE; */
+    margin-bottom: 15px;
+
+}
+.products_block_card > p{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+
+.products_block_card > h5{
+    margin-top: 5px;
+
+}
+
+.products_block_card > h6{
+    margin-bottom: 25px;
+
+}
+.products_block_card_price{
+    font-size: 19px;
+    line-height: 23px;
+    
+    /* identical to box height, or 121% */
+    display: flex;
+    align-items: flex-end;
+    
+    /* For text 1 */
+    color: #444444;
+
+    /* display: flex; */
+    float: left
+}
+
+.products_block_card_price_old{
+
+    width: 103px;
+    height: 23px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+
+    display: flex;
+    align-items: flex-end;
+    text-decoration-line: line-through;
+
+    /* For Text 2 */
+    color: #888888;
+    float: right;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+
+/* .products_block_card_block_button{
+    display: flex;
+
+} */
+
+.products_block_card_button{
+   /* Button */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+
+    /* White */
+    color: #FFFFFF;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 40px 16px;
+
+    /* Primary */
+    background: #00ADEF;
+    border-radius: 5px;
+
+}
+
+.products_block_card_icon_1{
+
+    /* background-image: url(img/VectorStroke.png); */
+    width : 20px;
+    height: 18px;
+
+
+}
+.products_block_card_icon_2{
+
+    /* background-image: url(img/VectorStroke.png); */
+    width : 20px;
+    height: 18px;
+    display: flex;
+    display: inline;
+
+}
+
+
+
+
